@@ -27,7 +27,7 @@ function App() {
               href="https://suemn-5aaaa-aaaap-qb62q-cai.icp0.io"
               text= "Corn Explorer"
               fontWeight={"700"}
-              fontSize={"24px"}
+              fontSize={"36px"}
               font={"Libre Caslon Display"}
               className ="corn_but"
               />
@@ -46,7 +46,7 @@ function App() {
           href="https://dodkw-jyaaa-aaaag-qbryq-cai.raw.icp0.io/229"
           text= "Whitepaper"
           fontWeight={"700"}
-          fontSize={"36px"}
+          fontSize={"24px"}
           font={"Libre Caslon Display"}
           />
 
