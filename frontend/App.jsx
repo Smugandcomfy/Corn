@@ -38,7 +38,7 @@ function App() {
       <header className="link-section">
         
         <nav>
-        <a href="https://github.com/Smugandcomfy/Bitcorn-explorer" target="_blank" rel="noopener noreferrer" className="nav-icon-link">
+        <a href="https://github.com/Bitcorn-labs" target="_blank" rel="noopener noreferrer" className="nav-icon-link">
           <img src={corn} alt="Bitcorn Labs" style={{ width: '36px', height: '36px', paddingRight: '0px', verticalAlign: 'middle' }} />
         </a>
 
