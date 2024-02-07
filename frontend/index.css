@@ -1,0 +1,173 @@
+@import "@fontsource/libre-caslon-display";
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #d4e2d4;
+}
+
+.link-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-icon-link {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-media-bar {
+    position: fixed;
+    top: 11px;
+    right: 10px;
+    background-color: #cdb888;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+
+.social-media-icon {
+    display: inline-block;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.social-media-icon img {
+    width: 24px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.hero {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    z-index: 0;
+}
+
+.hero-text {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+}
+
+.hero-quote {
+    font-family: 'Libre Caslon Display','Chalkduster', 'Comic Sans MS', cursive;
+    font-size: 36px;
+}
+
+.text-section {
+    background-color: #cdb888;
+    color: #1f251c;
+    border: none;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    font-family: 'Libre Caslon Display', 'Chalkduster', 'Comic Sans MS', cursive;
+    font-size: 18px;
+    box-shadow: 0 4px 0 #8b7c3d;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-section h2 {
+    color: #1f251c;
+    font-family: 'Libre Caslon Display', serif;
+}
+
+.text-section a {
+    color: #3a5f41;
+    text-decoration: none;
+}
+
+.text-section a:hover {
+    text-decoration: underline;
+}
+
+.text-section ul {
+    text-align: left;
+    width: 100%;
+    list-style-position: inside;
+    margin-left: 75%;
+}
+
+.text-section h2, .text-section p {
+    width: 100%;
+}
+
+.disclaimer {
+    text-align: center;
+    padding: 20px;
+    margin: 40px auto 0;
+    background-color: #d4e2d4;
+    color: #666;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    .social-media-bar {
+        top: 14px;
+    }
+
+    .social-media-icon img {
+        width: 20px;
+    }
+
+    .hero-quote {
+        font-size: 30px;
+    }
+
+    .corn-but{
+        font-size: 20px;
+    }
+
+    .text-section ul {
+        margin-left: 20%;
+    }
+}
