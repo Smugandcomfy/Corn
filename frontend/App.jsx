@@ -98,7 +98,7 @@ function App() {
           <li>🚽 (DRC-20)</li>
           <li>🐓 (ICRC-1) (prev. DIP-20)</li>
           <li>🌽 (ICPI)</li>
-          <li>🦪 (Needful DO: SAaS)</li>
+          <li>🪡 (Needful DO: SAaS)</li>
         </ul>
       </div>
 
