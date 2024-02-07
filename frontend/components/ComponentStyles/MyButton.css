@@ -1,0 +1,56 @@
+/* .custom-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000000;
+    font-weight: 550;
+    border: none;
+    border-radius: 40px;
+    transition: background-color 0.3s ease;
+    height: 40px;
+    line-height: 1;
+}
+
+.custom-button:hover {
+    background-color: #504e4c;
+} */
+
+.custom-button {
+    background-color: #cdb888; /* A warm tan drawn from the cornfield */
+    color: #1f251c; /* A dark color for the text for contrast */
+    border: none;
+    padding: 5px 10px;
+    font-family: 'Libre Caslon Display','Chalkduster', 'Comic Sans MS', cursive; /* Similar to the playful font style */
+    font-size: 24px; /* Size of the font */
+    text-shadow: 1px 1px 0 #ffffff; /* A light text shadow for depth */
+    box-shadow: 0 4px 0 #8b7c3d; /* Shadow color drawn from the lighter areas of the cornfield */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.custom-button:hover {
+    background-color: #e0c078; /* A lighter tan for the hover state */
+    box-shadow: 0 2px 0 #8b7c3d;
+    transform: translateY(2px);
+}
+
+.custom-button:active {
+    background-color: #af8f53; /* An even lighter tan for the active state */
+    box-shadow: 0 1px 0 #8b7c3d;
+    transform: translateY(4px);
+}
+
+
+.button-icon {
+    margin-right: 0px; /* Space between icon and text */
+    margin-left: 8px;
+    width: 30px; /* Adjust as needed */
+    border-radius: 50%;
+    height: auto;
+    vertical-align: middle;
+}
