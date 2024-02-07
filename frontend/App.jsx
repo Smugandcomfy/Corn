@@ -92,12 +92,13 @@ function App() {
       </div>
 
       <div className="text-section">
-        <h2>Projects</h2>
-        <p>Experiments with various Standard Implementations on the Internet Computer:</p>
+        <h2>Projects & Canisters</h2>
+        <p> </p>
         <ul>
           <li>🚽 (DRC-20)</li>
           <li>🐓 (ICRC-1) (prev. DIP-20)</li>
           <li>🌽 (ICPI)</li>
+          <li>🦪 (Needful DO: SAaS)</li>
         </ul>
       </div>
 
