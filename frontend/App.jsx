@@ -68,7 +68,7 @@ function App() {
           <img src={telegram} alt="Telegram" />
         </a>
 
-        <a href="https://github.com/Smugandcomfy/Bitcorn-explorer" target="_blank" rel="noopener noreferrer" className="social-media-icon">
+        <a href="https://github.com/Bitcorn-labs" target="_blank" rel="noopener noreferrer" className="social-media-icon">
           <img src={github} alt="Github" />
         </a>
       </div>
